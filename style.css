@@ -1,0 +1,32 @@
+#screen1{
+    background-image: url(Bg1.gif);
+    background-size: cover;text-decoration-color: blue;
+}
+#icon{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+.login_div
+{
+	background: rgba(26, 213, 234, 0.548);
+    border-radius: 15px;
+    padding: 50px;
+    float: right;
+ margin-top: 110px;
+ margin-right: 150px;
+}
+#new_account{
+   float: right; 
+}
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+#logout
+{
+	font-size: 20px; float: right;
+}
+#save
+{
+	font-size: 20px; float: right;
+}
+

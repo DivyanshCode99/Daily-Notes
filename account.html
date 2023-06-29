@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daily Notes</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="account.js"></script>
+</head>
+<body id="screen1">
+<center>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOJGw2PIGvu-AjmCOTlKk9KxcSBdcl0kyXVs14afc&s" class="logo" id="icon"><h1><b>Notes</b></h1>
+		<h2>Create a new account</h2>
+		<div class="form-group">
+		  <label >Enter your Name:</label>
+           <input type="text" id="user_name" class="form-control" placeholder="User Name">
+           <label >Enter your password:</label>
+           <input type="password" id="password" class="form-control" placeholder="Password">
+		   <label >Confirm your password:</label>
+           <input type="password" id="repassword" class="form-control" placeholder="RePassword">
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="create_account()">Create a account</button>
+		<br><br>
+        
+	</div>
+</div>
+</center>
+</body>
+</html>
